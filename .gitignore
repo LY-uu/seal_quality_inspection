@@ -1,0 +1,26 @@
+# 数据集
+datasets/
+
+# 模型权重
+*.pt
+*.onnx
+*.engine
+models/yolo/weights/
+
+# Python 缓存
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 训练输出
+runs/
+silver_edge_training/
+wandb/
+*.log
+results/
+
+# IDE 及系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
